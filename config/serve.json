@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://y5sx6.sharepoint.com/sites/PowerAppsProject/SitePages/React-Crud-Operation.aspx",
+      "customActions": {
+        "1981c009-d05e-4f46-ae41-d41680838f29": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top":"I am header",
+            "Bottom":"I am footer"
+          }
+        }
+      }
+    },
+    "applicationCustomizer": {
+      "pageUrl": "https://y5sx6.sharepoint.com/sites/PowerAppsProject/SitePages/React-Crud-Operation.aspx",
+      "customActions": {
+        "1981c009-d05e-4f46-ae41-d41680838f29": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top":"I am header",
+            "Bottom":"I am footer"
+          }
+        }
+      }
+    }
+  }
+}
