@@ -64,6 +64,7 @@ private _renderPlaceHolder():void{
     this._bottomPlaceHolder=this.context.placeholderProvider.tryCreateContent(
       PlaceholderName.Bottom,{onDispose:this._onDispose}
     );
+    //Simple comment
     //the extension should not assume that the expected place holder is not availble
     if(!this._bottomPlaceHolder){
       console.error("The expected Bottom placeholder is not availble");
